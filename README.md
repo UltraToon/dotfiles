@@ -1,4 +1,5 @@
 # .dotfiles
-Dotfiles for my linux adventure.
+Dotfiles for the go. GNU/Linux
 
-![image](https://user-images.githubusercontent.com/92064752/149644041-5f7368e0-ad3e-46c9-b57a-3ce08aa1e240.png)
+
+![0004](https://user-images.githubusercontent.com/92064752/151687757-6cbef345-23fd-4033-9925-a8ac8bd59ed6.jpg)
