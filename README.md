@@ -1,4 +1,4 @@
-# .dotfiles
+# Welcome to my dotfiles!
 Dotfiles for the go. GNU/Linux
 # Notice
 I will switch to doing the `git --bare` repository method soon.
