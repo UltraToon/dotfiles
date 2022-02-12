@@ -4,9 +4,6 @@ alias ls='ls --color=auto'
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-
-# disk
 alias df='df -h'     # human-readable sizes
 alias free='free -m' # show sizes in MB
 
@@ -35,3 +32,4 @@ PS2='-> '
 
 export MANPAGER='nvim +Man!'
 export MANWIDTH='999'
+export XDG_CONFIG_HOME=$HOME/.config
