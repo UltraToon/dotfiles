@@ -27,7 +27,7 @@ alias archlinx-fix-keys='sudo pacman-key --init && sudo pacman-key --populate ar
 #\u - username of current user
 #\w - path to current working directory
 bold=$(tput bold)
-PS1='\[\e[31m\]$bold[\W]\[\e[34m\] \@ \n\[\e[32m\]-> '
+PS1='\[\e[31m\]$bold[\W]\[\e[34m\] \@ \n\[\e[32m\]﬌ '
 PS2='-> '
 
 export MANPAGER='nvim +Man!'
