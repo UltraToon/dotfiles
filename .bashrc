@@ -1,6 +1,6 @@
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
+alias ls='lsd'
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
@@ -27,8 +27,8 @@ alias archlinx-fix-keys='sudo pacman-key --init && sudo pacman-key --populate ar
 #\u - username of current user
 #\w - path to current working directory
 bold=$(tput bold)
-PS1='\[\e[31m\]$bold[\W]\[\e[34m\] \@ \n\[\e[32m\]-> '
-PS2='-> '
+PS1='\[\e[31m\]$bold[\W]\\[\e[32m\]> '
+PS2='> '
 
 export MANPAGER='nvim +Man!'
 export MANWIDTH='999'
