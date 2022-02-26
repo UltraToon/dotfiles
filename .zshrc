@@ -66,6 +66,7 @@ export GPG_TTY=$TTY
 export MANPAGER='nvim +Man!'
 export MANDWIDTH='999'
 export XDG_CONFIG_HOME=$HOME/.config
+
 # Source additional local files if they exist.
 z4h source ~/.env.zsh
 
@@ -107,6 +108,7 @@ alias df='df -h'     # human-readable sizes
 alias free='free -m' # show sizes in MB
 alias psmem='ps auxf | sort -nr -k 4 | head -5' # get top process eating memory
 alias pscpu='ps auxf | sort -nr -k 3 | head -5' # get top process eating cpu
+alias vim='lvim'
 
 # Add flags to existing aliases.
 alias ls="${aliases[ls]:-ls} -A"
