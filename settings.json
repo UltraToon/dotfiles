@@ -1,0 +1,8 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "editor.cursorBlinking": "phase",
+    "editor.fontFamily": "'JetBrains Mono Nerd Font', 'monospace', monospace",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.fontWeight": "normal"
+}
