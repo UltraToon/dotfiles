@@ -1,0 +1,432 @@
+ls
+sla
+sd
+ls
+ls
+echo "HELLO"
+exit
+cd .config/bash/
+ls
+cat bash_history 
+cd
+cd
+v ~/.bashrc
+exit
+man man
+man man
+mv .config/bash/bash_history .config/bash/history
+exit
+v
+v ~/.bashrc
+shopt
+cd .config/
+ls
+find ./inputrc 
+find inputrc
+find -f 'inputrc'
+find 'inputrc'
+find
+find | grep -i inputrc
+ls
+ls
+ls
+ls
+ls
+mv readline/inputrc .
+rm -rf readline/
+ls
+cat inputrc 
+cat /etc/inputrc 
+cat /etc/inputrc | grep -i "\e[B"
+cat /etc/inputrc | grep -i "e"
+cat /etc/inputrc | grep -i "history"
+v inputrc 
+v ~/.bashrc
+exit
+ls
+cd .config/
+cd bash/
+ls
+ls
+touch aliases
+v ~/.bashrc
+v ~/.bashrc
+exit
+v
+ls
+cd .config/bash/aliases 
+cd .config/bash/
+ls
+touch functions
+v ~/.bashrc
+v ~/.bashrc
+exit
+v ~/.bashrc 
+v ~/.bashrc 
+exit
+ls
+sl
+ls Pictures/
+rm -rf Pictures/
+v ~/.local/bin/screenshot 
+v
+cd .config/bash/
+v ~/.bashrc
+nvim ~/.bashrc
+ls
+rm -rf history 
+exit
+v
+v ~/.bashrc
+ls
+ls
+rm -rf ~/.config/Xauthority 
+ls
+ls
+ls ~/.local/share/
+rm -rf ~/.local/share/{gnome-boxes/}
+cd ~/.local/share/
+ls
+rm -rf gnome-boxes/ Trash/ 
+cd
+v ~/.config/suckless/dwm/config.h 
+v ~/.config/sx/sxrc 
+v ~/.config/sx/sxrc 
+v ~/.config/sx/sxrc 
+v ~/.config/sx/sxrc
+xwallpaper --zoom ~/pictures/wallpapers/roads.jpg
+v ~/.config/sx/sxrc
+v ~/.config/sx/sxrc
+notify-send what
+ls
+cd .config/
+ls
+cd bash/
+ls
+mv functions bash_functions
+echo $XDG_CACHE_HOME
+ls
+ls
+ls
+l
+s
+ls
+ls
+ls
+cd
+ls
+ls
+v ~/.bashrc
+v ~/.bashrc
+ls ~/.local/share/1000/
+v ~/.bashrc
+ls
+ls
+cat .config/tmux/
+ls .config/tmux/
+rm -rf .tmux.conf .tmux.conf.local 
+ktmux
+ls
+cd
+cd
+cd
+cd
+cd
+cd
+cd
+cd
+c
+cd
+cd
+cd
+cd
+cd
+cd
+cd
+cd
+cd
+cd
+cd
+cd
+cp .config/tmux/.tmux.conf .
+rm -rf .tmux.conf 
+v ~/.config/tmux/.tmux.conf
+v ~/.config/tmux/.tmux.conf.local 
+rm -rf .config/tmux/
+ls
+cd /
+find | grep -i tmux.conf
+sudo find | grep -i tmux.conf
+sudo find
+sudo find | grep -i tmux
+cd
+ls
+ktmux
+ls
+cd .config/
+ls
+cd
+doas xbps-remove tmux
+doas xbps-install tmux
+ls
+cd .config/
+ls
+mkdir tmux
+v tmux/tmux.conf
+ktmux
+v tmux/tmux.conf
+v .config/tmux/tmux.conf 
+v .config/tmux/tmux.conf 
+ktmux
+exit
+eixt
+exit
+v .config/tmux/tmux.conf 
+ktmux
+exit
+v .config/tmux/tmux.conf 
+v .config/tmux/tmux.conf 
+ktmux
+exit
+v .config/tmux/tmux.conf 
+v .config/tmux/tmux.conf 
+ls
+cd .config/
+ls
+cd .bash
+cd bash
+ls
+v .config/tmux/tmux.conf 
+v .config/tmux/tmux.conf 
+ls
+clear
+ls
+ls
+v ~/.bashrc
+exit
+v ~/.bashrc
+ls
+clear
+ls
+v ~/.bashrc
+ls
+cd vids/`
+cd vids/
+ls
+pwd
+cd
+wpdw
+pwd
+pwd
+pwd
+wpd
+pdw
+pwd
+pdw
+pwd
+pwd
+sl
+ls
+cd .config/bash/
+ls
+mv bash_aliases bashaliases
+ls
+mv bashaliases bash_aliases
+exit
+v
+v
+ls
+cat .bash_logout 
+rm -rf .bash_logout 
+exit
+ls
+cat .bash_profile 
+mv .bashrc ~/.config/bash/bashrc
+l
+ls
+v .bash_profile 
+exit
+las
+ls
+ls
+echo $XDG_STATE_HOME
+ls
+ls -a
+v
+nvim .config/bash/bashrc 
+exit
+ls
+ls
+ls
+clear
+ls
+clear
+nvim .config/bash/bashrc 
+exit
+v
+v
+nvim .config/bash/bashrc 
+exit
+nvim .config/bash/bashrc 
+nvim .config/bash/bashrc 
+cd .config/bash/
+ls
+v
+exit
+vi
+v
+nvim .config/bash/bashrc 
+exit
+ls
+clear
+ls
+clear
+v
+man shopt
+man bash
+man shopt_option
+man bash
+v
+nvim .config/bash/bashrc 
+exit
+ls
+v
+v .bash_profile
+cd .config/bash/
+ls
+cat bash_history 
+rm -rf bash_history 
+s
+ls
+v bashrc
+v bashrc
+ls
+ls
+ls
+ls
+ls
+v ....
+v...
+v..
+.
+.
+source
+man source
+man .
+v bash_func 
+ls
+cd
+ex 
+ex()
+v bash_func 
+cd .config/bash/
+v bash_func 
+exit
+ex()
+ex
+v bash_func 
+cd .config/bash
+v bash_func 
+exit
+extract
+cd .config/bash/
+v bashrc
+mv bash_func bash_functions
+exit
+extract 
+ls
+cd downloads/
+ls
+extract openarena-0.8.8.zip 
+ls
+cd openarena-0.8.8
+ls
+rm -rf __MACOSX/
+./openarena.x86_64 
+cd ..
+ls
+rm -rf openarena-0.8.8
+cd /etc/
+s
+cd
+ls
+clear
+ls
+cd .config/
+ls
+java
+ls
+ls
+cd
+ls
+ls
+
+ls
+ls
+ls
+clear
+v .config/bash/bash_env 
+v .config/bash/bash_env 
+v .config/bash/bashrc 
+v .config/bash/bash_alias 
+ls
+cd downloads/
+ls
+rm -rf *
+ls
+
+ls
+extract
+cd
+v ~/.config/bash/bash_hist 
+v ~/.config/bash/bash_env 
+exit
+$EDITOR
+doas xbps-install vim
+exit
+v .config/bash/bashrc 
+v .config/bash/bash_alias 
+cd downloads/
+rm -rf *
+extract
+v ~/.config/bash/bash_hist 
+doas xbps-install vim
+$EDITOR
+vim
+doas xbps-remove vim
+doas xbps-remove -o
+v ~/.config/bash/bash_env 
+noisetorch -i
+cd bash
+v bash_env
+cd 
+cd .config/
+cd
+v .config/bash/bash_alias
+doas xbps-remove git
+doas xbps-remove xtools
+xrs
+ls
+rm -rf .python_history 
+doas xbps-install pcmanfm
+exit
+vim
+vim .bash_profile
+$right
+echo
+$uidfasdhf
+asdf
+a
+sdf
+. .bash_profile
+ls
+exit
+ls
+doas xbps-install alacritty
+doas xbps-remove alacritty
+doas xbps-remove -o
+v .bash_profile 
+exit
+ls
+ktmu
+ktmux
