@@ -15,20 +15,9 @@ if [[ -d "$HOME/.local/bin" ]];
   then PATH="$HOME/.local/bin:$PATH"
 fi
 
-case $EDITOR in
-  nvim)         export $EDITOR=nvim ;;
-  vim)          export $EDITOR=vim ;;
-  nano)         export $EDITOR=nano ;;
-  *)            echo "Please set a EDITOR!" ;;
-esac
-
-case $BROWSER in
-  firefox)      export $BROWSER=firefox ;;
-  qutebrowser)  export $BROWSER=qutebrowser ;;
-  chromium)     export $BROWSER=chromium ;;
-  *)            echo "Please set a BROWSER!" ;;
-esac
-
+export EDITOR=nvim
+export VISUAL=nvim
+export BROWSER=qutebrowser
 export TERM=st
 
 export MANPAGER="$EDITOR +Man!"
