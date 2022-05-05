@@ -1,10 +1,12 @@
-# Welcome! These are my dotfiles.
+# My Dotfiles
 
-**What are dotfiles?**\
-A portable repository that you can use to bring your files on the go, that usually start with '.' (hence the name).
+## Welcome
+Hello, these are my **dotfiles**, basically files I use to-go throughout my awesome GNU/Linux adventure.
 
-**A note about mine**\
-I am not making this for everyone, and this is for my personal use only, but feel free to try them out!
+## Dependencies
+**Git** - _Obviously..._
+**Bash** - _Needed for my awesome bash configuration_
+**Coreutils** - **_ABSOLUTELY NECESSARY!_**
 
-
-![forest](https://user-images.githubusercontent.com/92064752/157976135-8169fe23-d195-4c0b-98e5-b23daf7f67f3.jpg)
+# Notice!
+_I customize these to my own personal liking, so please change it to your own favor if you dislike some things about this._
