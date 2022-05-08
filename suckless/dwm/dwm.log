@@ -1,0 +1,5 @@
+erresc: unknown csi ESC[>c
+erresc: unknown csi ESC[>q
+erresc: unknown private set/reset mode 7727
+17:05:30 WARNING: The X11 connection broke (error 1). Did the X11 server die?
+X connection to :1 broken (explicit kill or server shutdown).
