@@ -1,0 +1,12 @@
+#!/bin/sh
+
+pipewire &
+pipeiwre-pulse &
+exec bspwm
+
+# DWM
+#xwallpaper ~/pics/wallpapers/mtrn2j40iwv81.png &
+#slstatus &
+#dunst &
+#picom --experimental-backends &
+#xsettingsd &
