@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# --- ALIASES ---
+alias ls="exa --icons --group-directories-first"
+alias la="exa -a --icons --group-directories-first"
+alias ll="exa -al --icons --group-directories-first"
+
+# Confirm for common actions
+alias cp="cp -i"
+alias mv="mv -i"
+alias rm="rm -i"
+
+# Resource monitoring
+alias df="df -h"
+alias free="free -m"
+alias topmem="ps auxf | sort -nr -k 4 | head -5"
+alias topcpu="ps auxf | sort -nr -k 3 | head -5"
+
+# Grep color output
+alias grep="grep --color=auto"
+alias egrep="egrep --color=auto"
+alias fgrep="fgrep --color=auto"
+
+# Diff
+alias diff="diff --color=always"
+
+# Programs
+
+if command -v /usr/bin/git >/dev/null 2>&1; then
+  alias g="git"
+  alias gc="git clone"
+  alias gp="git pull"
+  alias gC="git commit"
+  alias ga="git add"
+  alias gb="git branch"
+fi
+
+alias NNN='sudo -E nnn -dH'
+
+alias v="$EDITOR"
+alias doas="sudo"
+alias compile="sudo make clean install"
