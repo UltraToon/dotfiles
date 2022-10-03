@@ -1,8 +1,0 @@
-#!/bin/bash
-if [[ ! -d "$HOME/Pictures/screenshots" ]];
-then
-  mkdir -p $HOME/Pictures/screenshots
-fi
-
-/usr/bin/scrot -s -q 100 $HOME'/Pictures/screenshots/%Y-%m-%d_$wx$h.png'
-notify-send "📷 Screenshot taken!"
