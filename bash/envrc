@@ -1,0 +1,28 @@
+#!/bin/bash
+
+### SYS ###
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_DATA_HOME=$HOME/.local/share
+export XDG_CACHE_HOME=$HOME/.cache
+export XDG_STATE_HOME=$HOME/.local/share
+
+export HISTSIZE=1000
+export HISTFILE=$XDG_CONFIG_HOME/bash/hist
+export HISTCONTROL=ignoredups:erasedups
+export LESSHISTFILE=-
+
+
+if [[ -d "$HOME/.local/bin" ]];
+  then PATH="$HOME/.local/bin:$PATH"
+fi
+
+
+### PROGRAMS ###
+export EDITOR=nvim
+export VISUAL=$EDITOR
+export TERMINAL=foot
+
+
+# Man
+export MANPAGER="$EDITOR +Man!"
+export MANWIDTH="999"

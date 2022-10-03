@@ -1,0 +1,44 @@
+#!/bin/bash
+
+#######   ########  #######  ##    ##    ########  #######
+##    ##  ##    ##  ##       ##    ##    ##    ##  ##
+#######   ########  #######  ########    ########  ##
+##    ##  ##    ##       ##  ##    ##    #####     ##
+#######   ##    ##  #######  ##    ##    ##  ####  #######
+
+[[ $- != *i* ]] && return
+
+# --- OPTIONS ---
+shopt -s histappend
+shopt -s checkwinsize
+shopt -s autocd
+shopt -s cdspell
+shopt -s cmdhist
+shopt -s dotglob
+
+bind "set completion-ignore-case on"
+
+# --- PROMPT ---
+
+# Starship prompt
+# eval "$(starship init bash)"
+
+# Bash Prompt
+export PS1="\[$(tput bold)\]\[\033[38;5;202m\]\u\[$(tput sgr0)\]\[\033[38;5;46m\]@\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;12m\]\h\[$(tput sgr0)\] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;52m\][\[$(tput sgr0)\]\[\033[38;5;166m\]\$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')\[$(tput sgr0)\]\[\033[38;5;13m\]\w\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;52m\]]\[$(tput sgr0)\]\[\033[38;5;46m\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
+
+# --- SOURCES --
+
+# Environment Variables
+if [[ -f "$HOME/.config/bash/envrc" ]]; then
+  source "$HOME/.config/bash/envrc"
+fi
+
+# Aliases
+if [[ -f "$XDG_CONFIG_HOME/bash/aliasrc" ]]; then
+  source "$XDG_CONFIG_HOME/bash/aliasrc"
+fi
+
+# Functions
+if [[ -f "$XDG_CONFIG_HOME/bash/funcrc" ]]; then
+  source "$XDG_CONFIG_HOME/bash/funcrc"
+fi
