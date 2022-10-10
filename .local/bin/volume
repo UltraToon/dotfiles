@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+function notify() {
+  volume=$(pactl get-sink-volume @DEFAULT_SINK@ | awk '/^Volume:/ {print $5}')
+  dunstify -a "changevol" -u low -r "9993" -h int:value:"$volume" -i "volume-$1" "🔉 Volume: ${volume}%" -t 2000
+}
+
+case $1 in
+--up)
+  pactl set-sink-volume @DEFAULT_SINK@ +5%
+  notify $1
+  ;;
+--down)
+  pactl set-sink-volume @DEFAULT_SINK@ -5%
+  notify $1
+  ;;
+--mute)
+  pactl set-sink-mute @DEFAULT_SINK@ toggle
+  if [ $(pactl get-sink-mute @DEFAULT_SINK@ | awk '{print $2}') == "yes" ]; then
+    dunstify -a "changevol" -t 2000 -r 9993 -u low "🔇 Muted"
+  else
+    notify $1
+  fi
+  ;;
+esac
+

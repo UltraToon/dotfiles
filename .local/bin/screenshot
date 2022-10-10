@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+case $1 in
+--clipboard)
+  /usr/bin/scrot -s -f -q 100 -o "/tmp/image.png" && xclip -selection clipboard -t image/png -i /tmp/image.png && \
+  notify-send -t 1500 "📷 Screenshot taken!" || notify-send -t 1500 "❌ Screenshot aborted!"
+  ;;
+--savefull)
+  /usr/bin/scrot -q 100 "$(xdg-user-dir PICTURES)/%Y-%m-%d.png" && \
+  notify-send -t 1500 "📷 Screenshot taken!" || notify-send -t 1500 "❌ Screenshot aborted!"
+  ;;
+--saveselect)
+  /usr/bin/scrot -s -f -q 100 "$(xdg-user-dir PICTURES)/%Y-%m-%d.png" && \
+  notify-send -t 1500 "📷 Screenshot taken!" || notify-send -t 1500 "❌ Screenshot aborted!"
+  ;;
+esac

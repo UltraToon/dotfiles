@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+notify-send -t 1500 "$(
+printf "🗓️$(date '+%D ⌛%r')\n"
+curl -s 'wttr.in/{Eugene}?format=3'
+)"
