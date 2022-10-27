@@ -1,0 +1,1000 @@
+v ~/.config/rofi/powermenu/type-2/shared/colors.rasi 
+./powermenu/type-5/powermenu.sh 
+v powermenu/type-4/powermenu.sh 
+./powermenu/type-4/powermenu.sh 
+v powermenu/type-2/powermenu.sh 
+./powermenu/type-2/powermenu.sh 
+ls
+ls scripts/
+./scripts/powermenu_t1
+./scripts/powermenu_t2
+v ../bash/bashenv
+v ../bash/envrc
+exit
+cd .config/bspwm/
+v bspwmrc 
+ls
+pwd
+clear
+btop
+startx
+sx
+exit
+v .config/sxhkd/sxhkdrc 
+exit
+exits
+exit
+v .config/sxhkd/sxhkdrc 
+exit
+sx
+rofi -show power-menu -modi "power-menu:rofi-power-menu --choices
+rofi -show power-menu -modi "power-menu:rofi-power-menu --choices=shutdown/reboot/suspend"
+rofi -show power-menu -modi power-menu:rofi-power-menu
+rofi -show power-menu -modi "power-menu:rofi-power-menu --choices=shutdown/reboot/suspend/log out"
+rofi -show power-menu -modi "power-menu:rofi-power-menu --choices=shutdown/reboot/suspend/log-out"
+rofi -show power-menu -modi "power-menu:rofi-power-menu --choices=shutdown/reboot/suspend/log_out"
+rofi -show power-menu -modi "power-menu:rofi-power-menu --choices=shutdown/reboot/suspend/logout"
+rofi -show power-menu -modi "power-menu:rofi-power-menu --choices=shutdown/reboot/suspend/logout" --lines 2
+rm -rf ~/.local/bin/rofi-power-menu 
+cd /tmp
+ git clone --depth=1 https://github.com/adi1090x/rofi.git
+cd rofi/
+chmod +x setup.sh 
+./setup.sh 
+ls ~/.config/rofi
+sxhkd -h
+mv ~/.config/sxhkd/sxhkdrc ~/.config/bspwm/
+v ~/.config/bspwm/bspwmrc 
+rm -rf ~/.config/sxhkd/
+cd ~/.config/bspwm/
+pkill bspwm
+cd .config/bspwm/
+v bspwmrc 
+sx
+v ~/.config/rofi/powermenu/type-X/launcher.sh
+v ~/.config/rofi/powermenu/type-2/launcher.sh
+cd .config/rofi
+cat config.rasi 
+pwd
+rm -rf ~/.config/rofi.ivan/
+v config.rasi 
+ls colors/
+v ~/.config/rofi/powermenu/type-2/shared/colors.rasi 
+./powermenu/type-5/powermenu.sh 
+v powermenu/type-4/powermenu.sh 
+./powermenu/type-4/powermenu.sh 
+v powermenu/type-2/powermenu.sh 
+./powermenu/type-2/powermenu.sh 
+ls scripts/
+./scripts/powermenu_t1
+./scripts/powermenu_t2
+v ../bash/bashenv
+v ../bash/envrc
+cd .config/bspwm/
+v bspwmrc 
+pwd
+clear
+btop
+startx
+sx
+v .config/sxhkd/sxhkdrc 
+v .config/rofi/
+cd launchers/type-4/
+foot
+v launcher.sh 
+./launcher.sh 
+type-1/./launcher.sh 
+cd type-1
+cat launcher.sh 
+cd ..
+l
+cd
+cd .config/rofi/
+v launchers/type-1/shared/colors.rasi 
+v launchers/type-1/shared/fonts.rasi 
+v launchers/type-7/launcher.sh 
+ls launchers/type-1/
+ls launchers/type-7
+ls launchers/type-7/
+ls launchers/type-6/
+ls launchers/type-5/
+ls launchers/type-4/
+cp -r launchers/type-4/shared/ launchers/type-7/
+cd launchers/type-7/
+launcher_t7
+v style-2.rasi 
+rm -rf shared/
+launcher_t5
+launcher_t4
+launcher_t3
+v ../type-2/launcher.sh 
+launcher_t2
+v ../type-1/launcher.sh 
+v ~/.config/sxhkd/sxhkdrc 
+v ../../powermenu/type-2/powermenu.sh 
+powermenu_t2
+v ../../powermenu/type-2/shared/fonts.rasi 
+v ../../powermenu/type-2/shared/colors.rasi 
+cd ../type-1/
+ls
+v shared/fonts.rasi 
+v shared/colors.rasi 
+launcher_t1
+exit
+v shared/colors.rasi 
+launcher_t1
+cd Downloads/
+wine-staging CrystalDiskInfo8_17_8.exe 
+rm -rf ~/.wine/
+vim ~/Documents/ricetodo 
+exit
+v shared/fonts.rasi 
+v shared/colors.rasi 
+launcher_t1
+doas emerge picom-jonaburg
+doas vim /etc/portage/package.accept_keywords 
+doas emerge --deselect picom-jonaburg
+doas emerge --depclena
+doas emerge --c
+doas emerge -c
+doas emerge picom
+picom
+doas emerge --deselect picom && doas emerge -c
+exit
+doas emerge --deselect picom && doas emerge -c
+pkill picom
+picom
+exit
+picom
+exit
+cat launcher.sh 
+l
+cd .config/rofi/
+v launchers/type-1/shared/colors.rasi 
+v launchers/type-1/shared/fonts.rasi 
+v launchers/type-7/launcher.sh 
+ls launchers/type-1/
+ls launchers/type-7
+ls launchers/type-7/
+ls launchers/type-6/
+ls launchers/type-5/
+ls launchers/type-4/
+cp -r launchers/type-4/shared/ launchers/type-7/
+cd launchers/type-7/
+launcher_t7
+v style-2.rasi 
+rm -rf shared/
+launcher_t5
+launcher_t4
+launcher_t3
+v ../type-2/launcher.sh 
+launcher_t2
+v ../type-1/launcher.sh 
+v ../../powermenu/type-2/powermenu.sh 
+powermenu_t2
+v ../../powermenu/type-2/shared/fonts.rasi 
+v ../../powermenu/type-2/shared/colors.rasi 
+cd ../type-1/
+v shared/fonts.rasi 
+v shared/colors.rasi 
+launcher_t1
+cd /tmp
+eix ev
+doas emerge ev
+doas emerge xev
+doas emerge --deselect xev
+rm -rf ../picom/
+doas emerge uthas libev libconfig
+doas emerge uthash libev libconfig
+git clone https://github.com/jonaburg/picom
+cd picom/
+meson --buildtype=release . build
+ninja -C build
+cd build/
+find picom
+find "picom"
+find /tmp/picom/
+find /tmp/picom/ | grep -i jonaburg
+find /tmp/picom/ | grep -i picom
+cd build/src/
+./picom
+cd ..
+cd bin/
+doas emerge xprop
+./picom-trans 
+./picom-trans -s
+doas emerge --deselect xwininfo
+doas emerge --deselect uthash libev libconfig
+doas emerge -c
+cd
+doas emerge picom
+doas updatedb
+locate picom.conf
+eix pico
+mkdir ~/.config/picom/
+picom
+v ~/.config/picom/picom.conf
+v .config/picom/picom.conf 
+man picom
+vim ~/.config/bspwm/bspwmrc 
+v ~/.local/bin/picomtoggle
+mv ~/.config/picom/picom.conf ~/.config/
+rm -rf ~/.config/picom
+v ~/.config/bspwm/bspwmrc 
+ls
+chmod +x .local/bin/picomtoggle 
+v .local/bin/picomtoggle 
+picomtoggle 
+v ~/.config/picom.conf 
+picomtoggle
+v ~/.config/sxhkd/sxhkdrc 
+vim ~/Documents/ricetodo 
+exit
+vim ~/Documents/ricetodo 
+exit
+vim ~/Documents/ricetodo 
+v .config/bspwm/bspwmrc 
+cat .config/bspwm/bspwmrc 
+exit
+cat .config/bspwm/bspwmrc 
+v .local/bin/picomtoggle 
+cat .local/bin/picomtoggle 
+eix distrobox
+eix spotiflyer
+eix spotify
+exit
+vim ~/Documents/ricetodo 
+v .config/bspwm/bspwmrc 
+cat .config/bspwm/bspwmrc 
+cat .config/bspwm/bspwmrc 
+v .local/bin/picomtoggle 
+cat .local/bin/picomtoggle 
+eix distrobox
+eix spotiflyer
+eix spotify
+v .local/bin/volume 
+mv .local/bin/volume .local/bin/media
+media
+media --playpause
+v .local/bin/media 
+mv .local/bin/media .local/bin/volume
+v ~/Documents/ricetodo 
+doas vim /etc/portage/package.accept_keywords 
+doas emerge i3lock-color
+v ~/.config/bash/aliasrc 
+exit
+eix spotify
+cat .config/sxhkd/sxhkdrc 
+playerctl
+playerctl status play-pause
+playerctl status next
+playerctl status
+btop
+v .config/sxhkd/sxhkdrc 
+exit
+ds f
+ds v
+v .config/bash/aliasrc 
+playerctl status play-pause
+playerctl status next
+playerctl status
+btop
+v .config/sxhkd/sxhkdrc 
+exit
+ds f
+v .config/bash/aliasrc 
+ds v
+i3lock
+cd .config/bspwm/bspwmrc 
+v .config/bspwm/
+v .config/bspwm/bspwmrc 
+v .config/bspwm/startup
+rm -rf .config/bspwm/startup 
+dunst
+v .config/sxhkd/sxhkdrc 
+v .config/bspwm/
+v .config/bspwm/bspwmrc 
+v .config/bspwm/startup
+rm -rf .config/bspwm/startup 
+v .config/sxhkd/sxhkdrc 
+ls ~/.icons/
+ls /usr/share/icons/
+killall dunst
+dunst
+notify-send "Wacka"
+exit
+vim .config/dunst/dunstrc 
+v .config/dunst/dunstrc 
+vim .config/dunst/dunstrc 
+v .config/dunst/dunstrc 
+v .config/bspwm/bspwmrc 
+screenshot --savefull
+exit
+screenshot --savefull
+rm -rf Pictures/2022-10-10.png
+rm -rf Pictures/Screenshots/
+mkdir Pictures/Screenshots
+ls Pictures/Screenshots/
+cd Pictures/Screenshots/
+feh 2022-10-10.png 
+ds
+doas v
+v ~/.config/bash/aliasrc 
+exit
+doas v
+v ~/.config/bash/aliasrc 
+doas la
+exit
+mkd
+mkd ~/Pictures/Screenshots
+ls
+v ~/.local/bin/screenshot 
+v ~/.config/dunst/dunstrc 
+v ~/.config/sxhkd/sxhkdrc 
+v ~/.config/sxhkd/sxhkdrc 
+v ~/.config/user-dirs.
+v ~/.config/user-dirs.dirs 
+rm -rf Desktop/
+ls
+la
+notify-send -h
+notify-send --help
+exit
+notify-send --help
+exit
+rm -rf Desktop/
+ls
+la
+find /usr/share/icons/Qogir-dark/ | grep -i sound
+find /usr/share/icons/Qogir-dark/ | grep -i volume
+notify-send -i "audio-volume-low.svg" "YACKKO"
+notify-send -i "/usr/share/icons/Qogir-dark/24/actions/audio-volume-muted.svg" "YACKKO"
+notify-send -i "/usr/share/icons/Qogir-dark/24/actions/audio-volume.svg" "YACKKO"
+notify-send -i "/usr/share/icons/Qogir-dark/24/actions/stock-volume.svg" "YACKKO"
+notify-send -i "/usr/share/icons/Qogir-dark/24/actions/audio-volume-low.svg" "YACKKO"
+notify-send -i "/usr/share/icons/Qogir-dark/24/actions/stock_volume.svg" "YACKKO"
+notify-send -i "/usr/share/icons/Qogir-dark/24/actions/audio-volume-high.svg" "YACKKO"
+notify-send -u "low" "nice"
+man dunst
+man dunst 5
+man 5 dunst
+nvim .config/dunst/dunstrc 
+ls /usr/share/icons/Qogir-dark
+v ~/.local/bin/volume 
+v ~/.local/bin/volume 
+notify-send "e"
+v ~/.config/dunst/dunstrc 
+cd .config/dunst/
+ls
+notify-send "e"
+v ~/.config/dunst/dunstrc 
+v ~/.config/dunst/dunstrc 
+notify-send "e" -u critical
+notify-send "e"
+ls
+pwd
+clear
+btop
+startx
+s
+dc
+sx
+exit
+doas reboot
+ls
+notify-send "e" -u critical
+notify-send "e"
+notify-send "e" -u low
+dunst
+find /usr/share/icons/Qogir-dark/24/actions/
+find /usr/share/icons/Qogir-dark/24/actions/ | grep -i volume
+notify-send
+notify-send --help
+exit
+sx
+exit
+doas reboot
+cat /etc/xdg/dunst/dunstrc 
+cat /etc/xdg/dunst/dunstrc | grep -i icon
+v ~/.local/bin/volume 
+v ~/.local/bin/time_date
+mv ~/.local/bin/time_date ~/.local/bin/regioninfo
+v ~/.config/sxhkd/sxhkdrc 
+v ~/.config/dunst/dunstrc 
+v ~/.local/bin/sys_stats 
+v ~/.local/bin/picomtoggle 
+v ~/.local/bin/regioninfo 
+lock
+exit
+ls
+pwd
+v ~/.config/dunst/dunstrc 
+v ~/.config/dunst/dunstrc 
+v ~/Documents/ricetodo 
+v .config/bspwm/bspwmrc 
+exit
+v ~/Documents/ricetodo 
+v ~/.config/sxhkd/sxhkdrc 
+exit
+v .config/bspwm/bspwmrc 
+doas v /etc/portage/package.use 
+doas v /etc/portage/make.conf 
+doas emerge -uDN @world
+doas emerge --depclean
+doas eclean-dist
+doas eclean-pkg
+doas eclean-kernel
+cat /usr/share/doc/bspwm-0.9.10/examples/sxhkdrc 
+exit
+systemctl
+exit
+cat ~/.config/sxhkd/sxhkdrc 
+cd ~/.config/rofi/
+cd powermenu/type-2/
+v powermenu.sh 
+exit
+notify-send
+notify-send --help
+sx
+doas reboot
+cat /etc/xdg/dunst/dunstrc 
+cat /etc/xdg/dunst/dunstrc | grep -i icon
+v ~/.local/bin/volume 
+v ~/.local/bin/time_date
+mv ~/.local/bin/time_date ~/.local/bin/regioninfo
+v ~/.config/dunst/dunstrc 
+v ~/.local/bin/sys_stats 
+v ~/.local/bin/picomtoggle 
+pwd
+v ~/.config/dunst/dunstrc 
+doas rm -rf ~/.local/bin/sys_stats 
+mv .local/bin/regioninfo .local/bin/quickstats
+v ~/.local/bin/regioninfo 
+v ~/.config/sxhkd/sxhkdrc 
+date +r
+date +%r
+v ~/.local/bin/quickstats 
+doas emerge gtk-engines-murrine sassc
+doas emerge gtk-engines-murrine dev-lang/sassc
+git clone https://github.com/vinceliuice/Orchis-theme.git
+cd Orchis-theme/
+./install.sh -t green purple orange --tweaks compact -s compact -c dark
+v ~/Documents/ricetodo 
+lock
+doas emerge --noreplace xdpyinfo xrandr xrdb xset ImageMagick
+doas emerge --noreplace xdpyinfo xrandr xrdb xset imagemagick
+eix betterlock
+doas emerge --deselect i3lock-color
+doas emerge --depclean
+rm -rf ~/.local/bin/lock 
+doas emerge betterlockscreen
+cp /usr/share/doc/betterlockscreen/examples/betterlockscreenrc ~/.config
+eix betterlockscreen
+cp /usr/share/doc/betterlockscreen-4.0.4/kscreen/examples/betterlockscreenrc ~/.config
+cp /usr/share/doc/betterlockscreen-4.0.4/examples/betterlockscreenrc ~/.config
+cp /usr/share/doc/betterlockscreen-4.0.4/examples/betterlockscreenrc.bz2 ~/.config
+cd ~/.config/
+rm -rf *.bz2
+rm -rf nvim/
+nvim
+gc https://github.com/UltraToon/dotfiles
+#cp dotfiles/nvim/lua/core/options.lua ~/.config/
+mkdir ~/.config/nvim
+#cp dotfiles/nvim/lua/core/options.lua ~/.config/nvim/init.lua
+v ~/.config/nvim/i
+cd ~/.config/nvim/
+ls
+cd /tmp
+cp dotfiles/nvim/lua/core/options.lua ~/.config/nvim/init.lua
+v ~/.config/nvim/init.lua
+v ~/.config/betterlockscreenrc
+feh ~/Pictures/Wallpapers/
+betterlockscreen -u ~/Pictures/Wallpapers/GreenLeaf.png 
+betterlockscreen -l dim
+betterlockscreen --help
+doas emerge i3lock
+doas emerge i3lock:1
+doas emerge xss-lock
+xss-lock --transfer-sleep-lock -- i3lock --nofork
+xss-lock --transfer-sleep-lock -- betterlockscreen -l dim
+clear
+xset 30 xss-lock --transfer-sleep-lock -- betterlockscreen -l dim
+xset 30; xss-lock --transfer-sleep-lock -- betterlockscreen -l dim
+xset 30;  && s-lock --transfer-sleep-lock -- betterlockscreen -l dim
+xss-lock
+xss-lock -h
+man xss-lock
+doas emerge --deselect betterlockscreen xss-lock
+rm -rf ~/.config/betterlockscreenrc 
+doas v /etc/portage/package.accept_keywords 
+doas emerge -c
+exit
+cat /usr/share/doc/bspwm-0.9.10/examples/sxhkdrc 
+systemctl
+cat ~/.config/sxhkd/sxhkdrc 
+cd ~/.config/rofi/
+cd powermenu/type-2/
+v powermenu.sh 
+v ~/.config/rofi/powermenu/type-2/powermenu.sh 
+v ~/.config/rofi/powermenu/type-2/style-5.rasi 
+v ~/Documents/ricetodo 
+doas emerge tmux
+mkdir ~/.config/tmux
+test -n "$PS1" && test -z "$TMUX" -a -n "$SSH_TTY" && exec tmux new -ADX
+v ~/.config/tmux/tmux.conf
+v ~/.config/sxhkd/sxhkdrc 
+tmux
+exit
+doas reboot
+dunst
+v .config/bspwm/bspwmrc 
+sx
+exit
+doas shutdown -h now
+v ~/.config/sxhkd/sxhkdrc 
+v ~/.config/tmux/tmux.conf 
+tmux -a
+tmux
+v ~/Documents/ricetodo 
+cat ~/.config/sxhkd/sxhkdrc 
+sx
+sx
+pw
+d
+pwd
+l
+ls
+v ~/.config/tmux/tmux.conf 
+exit
+ls
+pwd
+exit
+ls
+pwd
+vim .local/bin/picomtoggle 
+vim .local/bin/quickstats 
+quickstats 
+vim .local/bin/volume 
+exit
+v Documents/ricetodo 
+v .config/bspwm/bspwmrc 
+ls
+exit
+cat /etc/lsb-release 
+lsb_release -a
+clear
+cat /etc/os-release 
+exit
+sx
+exit
+doas emerge neofetch
+neofetch
+sx
+https://github.com/Frogging-Family/linux-tkg
+cd .config/
+gc https://github.com/Frogging-Family/linux-tkg
+cd linux-tkg/
+v customization.cfg 
+cat customization.cfg | grep -i _configfile=
+ls
+./install.sh 
+./install.sh install
+cd ..
+rm -rf linux-tkg/
+neofetch
+exit
+cat .config/bspwm/bspwmrc 
+v .config/bspwm/bspwmrc 
+exit
+v .config/bspwm/bspwmrc 
+exit
+cat .config/tmux/tmux.conf 
+ jj
+tmux source
+tmux source ~/.config/tmux/tmux.conf 
+exit
+tmux
+v .config/tmux/tmux.conf 
+exit
+pulsemixer
+sx
+cd Downloads/
+ls
+la
+cd .local/bin/noisetorch
+cd .local/bin/
+./noisetorch 
+sx
+exit
+v .config/bspwm/bspwmrc 
+exit
+v Documents/ricetodo 
+exit
+v Documents/ricetodo 
+doas emerge --depclean
+doas eix-sync
+doas emerge --ask --verbose --update --deep --newuse @world
+doas emerge --ask --quiet --update --deep --newuse @world
+exit
+pulsemixer 
+cd .local/bin/
+./noi
+ls
+cd ~/Downloads/.local/bin/
+./noisetorch 
+v .config/bspwm/bspwmrc 
+exit
+emacs
+v Documents/MorningRoutine
+exit
+btop
+exit
+v Documents/MorningRoutine
+cd .local/share/
+ls
+doas updatedb
+locate brinker
+rm -rf ~/.config/brinkervii/
+btop
+doas emerge --noreplace sys-devel/gettext dev-vcs/git dev-python/pip x11-libs/cairo x11-libs/gtk+ dev-libs/gobject-introspection dev-util/desktop-file-utils x11-misc/xdg-utils x11-misc/xdg-user-dirs dev-util/gtk-update-icon-cache x11-misc/shared-mime-info x11-apps/mesa-progs
+git clone --depth=1 https://gitlab.com/brinkervii/grapejuice.git /tmp/grapejuice
+:
+cd /tmp/grapejuice/
+./install.py 
+cd /tmp
+wget https://pastebin.com/raw/5SeVb005 -O install.py
+python3 install.py
+cd ~/Downloads/.local/bin/
+./noisetorch 
+doas emerge -uDN @world
+cat /var/lib/portage/world
+v ~/.config/sxhkd/sxhkdrc 
+exit
+doas emerge --deselect tmux
+doas emerge -c
+doas eclean-kernel
+doas eclean-dist
+doas eclean-pkg
+exit
+cat /etc/portage/make.conf 
+exit
+doas emerge --deselect yt-dlp xsensors gnome-themes-standard
+doas emerge -c
+exit
+doas eclean-pkg
+cat /var/lib/portage/world
+doas emerge flaggie cpu2idflags
+doas emerge flaggie cpuid2cpuflags
+cpuid2cpuflags 
+cat /etc/portage/make.conf 
+doas v /etc/portage/make.conf 
+doas emerge -uDN @world
+exit
+cat /etc/portage/make.conf 
+doas emerge -uDN @world
+doas v /etc/portage/make.conf 
+eix grub
+exit
+v .config/bspwm/bspwmrc 
+exit
+exit
+doas eclean-pkg
+cat /var/lib/portage/world
+doas emerge flaggie cpu2idflags
+doas emerge flaggie cpuid2cpuflags
+cpuid2cpuflags 
+cat /etc/portage/make.conf 
+doas v /etc/portage/make.conf 
+exit
+doas emerge -uDN @world
+www-servers/apache ssl APACHE2_MODULES: proxy proxy_http APACHE2_MPMS: event
+doas v /etc/portage/package.use 
+emerge -puU grub
+lsblk
+sx
+sx
+noisetorch
+cd Downloads/.local/bin/
+./noisetorch -i
+doas emerge discord
+doas dispatch-conf
+doas emerge discord-bin
+cups
+pulsemixer
+exit
+doas vim /etc/portage/package.use 
+exit
+killall discord
+killall Discord
+doas emerge --deselect discord-bin
+doas emerge -c
+exit
+eix java
+eix java-8
+emerge java
+emerge --ask games-action/minecraft-launcher
+ACCEPT_KEYWORDS="~amd64" emerge --ask games-action/minecraft-launcher
+eix openjdk
+doas emerge openjdkdoas emerge openjdk-bin:8 openjdk-jre-bin:8
+emerge openjdk-bin:8 openjdk-jre-bin:8
+eix jre jdk
+eix jre
+eix jdk
+emerge openjdk-bin:8 openjdk-jre-bin:8
+eix jre jdk
+eix jre
+eix jdk
+eix helix
+doas v /etc/portage/package.accept_keywords 
+ACCEPT_KEYWORDS="~amd64" doas emerge helix
+doas emerge helix
+helix
+hx
+cd Documents/
+hx test.py
+ls
+v ~/.config/bash/bashenv
+v ~/.config/bash/envrc 
+$EDITOR
+doas updatedb
+locate helix.toml
+locate helix
+mkd ~/.config/helix
+v config.toml
+doas emerge --deselect helix
+rm -rf ../helix/
+nvim ~/.config/bash/envrc
+source ~/.bashrc
+v ~/.config/bash/envrc
+doas emerge --depclean
+sx
+doas emerge -uDN @world
+exit
+v config.toml
+doas emerge --deselect helix
+rm -rf ../helix/
+nvim ~/.config/bash/envrc
+source ~/.bashrc
+v ~/.config/bash/envrc
+doas emerge --depclean
+sx
+doas emerge -uDN @world
+exit
+eix prism
+doas vim /etc/portage/package.use 
+doas emerge prismlauncher
+doas vim /etc/portage/package.accept_keywords 
+doas emerge flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+ls /boot
+doas grub-mkconfig
+doas grub-mkconfig -o /boot/grub/grub.cfg 
+doas eclean-kernel
+exit
+flatpak install prismlauncher
+exit
+exit
+flatpak run
+flatpak run prismlauncher
+gamemode
+eix dbus
+flatpak run org.prismlauncher.PrismLauncher
+killall X
+killall Xorg
+flatpak run org.prismlauncher.PrismLauncher
+killall Xorg
+killall X
+killall X
+cd .co
+cd .config/rofi/
+ls
+cd powermenu/type-2/powermenu.sh 
+exit
+v ~/.config/sx/sxrc 
+exit
+doas emerge gnome-boxes
+doas emerge virtualbox
+kill bspc
+kilall bspwm
+killall bspwm
+exit
+flatpak run org.prismlauncher.PrismLauncher
+exit
+flatpak run org.prismlauncher.PrismLauncher
+exit
+flatpak run org.prismlauncher.PrismLauncher
+flatpak run org.prismlauncher.PrismLauncher
+vbox
+doas emerge virutalbox
+doas emerge --noreplace virutalbox
+doas emerge --noreplace virtualbox
+doas emerge --deselect virtualbox
+doas emerge --depclean
+doas v /etc/portage/package.accept_keywords 
+doas emerge helix
+helix
+hx
+v ~/.config/bash/envrc 
+exit
+$EDITOR
+exit
+neofetch
+exit
+time
+date
+exit
+v .config/bash/bashrc 
+cat .config/bash/bashrc 
+\cat .config/bash/bashrc 
+exit
+doas vim /etc/portage/package.accept_keywords 
+doas emerge flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+v .xinitrc
+startx
+rm -rf .xinitrc 
+cat .config/sx/sxrc 
+sx
+stat 
+stats
+exit
+neofetch
+notify-send -1 why
+notify-send -t -1 why
+exit
+btop
+exit
+curl wttr.in
+curl http://wttr.in/Eugene
+curl http://wttr.in/bremen
+eix xclicker
+eix clicker
+exit
+eix openjdk-bin
+doas emerge openjdk-bin:8 openjdk-bin:17
+doas emerge prismlauncher
+ACCEPT_KEYWORDS="~amd64" emerge prismlauncher
+java
+doas emerge --deselect openjdk-bin:17
+doas emerge -c
+eix jdk jre
+eix jdk
+doas emerge jdk:1.8 jre:1.8
+exit
+ip
+ip -a
+ip a
+ifconfig
+ifconfig -a
+exit
+eix clicker
+eix xdotool
+doas emerge xdotool
+doas emerge --deselect xdotool
+cd ~/Downloads/
+chmod +x xclicker_1.4.0_amd64.AppImage 
+./xclicker_1.4.0_amd64.AppImage 
+ls
+exit
+doas updatedb
+locate 'Sky Factory 3'
+cp ~/Downloads/Decocraft-2.5.2_1.10.2.jar .var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Sky\ Factory\ 3/minecraft/mods/
+ls .var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Sky\ Factory\ 3/minecraft/mods/
+ls .var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Sky\ Factory\ 3/minecraft/mods/ | grep -i deco
+exit
+ipconfig -a
+ifconfig
+exit
+v .xinitrc
+startx
+rm -rf .xinitrc 
+cat .config/sx/sxrc 
+sx
+stat 
+stats
+neofetch
+notify-send -1 why
+notify-send -t -1 why
+btop
+curl wttr.in
+curl http://wttr.in/Eugene
+curl http://wttr.in/bremen
+eix xclicker
+eix clicker
+cd Downloads/SF3/
+chmod +x *
+doas emerge minecraft
+doas emerge minecraft-launcher
+ACCEPT_KEYWORDS="~amd64"doas emerge minecraft-launcher
+ACCEPT_KEYWORDS="~amd64" doas emerge minecraft-launcher
+v
+ACCEPT_KEYWORD="~amd64" doas emerge minecraft-launcher
+ACCEPT_KEYWORD="~amd64" emerge minecraft-launcher
+ACCEPT_KEYWORDS="~amd64" emerge minecraft-launcher
+./Install.sh 
+cat README.txt 
+./Start.sh
+./ServerStart.
+v eula.txt 
+cat server.properties 
+cd ~/Downloads/
+unzip world-20221025T032512Z-001.zip 
+rm -rf world-20221025T032512Z-001.zip 
+rm -rf SF3/world/
+mv world/ SF3/
+mv SF3/ ~/Documents/
+cd ~/Documents/
+cd SF3/
+ls
+cat options.txt 
+v settings.sh 
+./ServerStart.sh
+exit
+sx
+exit
+steam
+exit
+groupadd vboxusers ivan
+useradd -aG vboxusers ivan
+usermod -aG vboxusers ivan
+id ivan
+virtualbox
+doas reboot
+exit
+cd Downloads/
+rm -rf Decocraft-2.5.2_1.10.2.jar 
+chmod +x ProtonUp-Qt-2.7.4-x86_64.AppImage 
+./ProtonUp-Qt-2.7.4-x86_64.AppImage 
+ls
+rm -rf ProtonUp-Qt-2.7.4-x86_64.AppImage 
+doas emerge --deselect virtualbox
+doas emerge --deselect virtual-box
+doas emerge --deselect vbox
+cat /var/lib/portage/world
+cat /var/lib/portage/world | grep -i box
+doas emerge gnome-boxes
+doas emerge vbox
+doas emerge virtual-box
+doas emerge virtualbox
+ doas groupmod -a ivan vboxusers
+su
+sx
+chmod +x ProtonUp-Qt-2.7.4-x86_64.AppImage 
+./ProtonUp-Qt-2.7.4-x86_64.AppImage 
+ls
+rm -rf ProtonUp-Qt-2.7.4-x86_64.AppImage 
+doas emerge --deselect virtual-box
+doas emerge --deselect vbox
+cat /var/lib/portage/world
+cat /var/lib/portage/world | grep -i box
+doas emerge vbox
+doas emerge virtual-box
+doas emerge virtualbox
+ doas groupmod -a ivan vboxusers
+su
+sx
+killall virtualbox
+htop
+btop
+virtualbox
+doas emerge --deselect virtualbox
+doas emerge -c
+doas emerge gnome boxes
+doas dispatch-conf
+doas v /etc/portage/make.conf 
+doas emerge qemu
+doas v /etc/portage/package.use 
+doas emerge gnome-boxes
+exit
+doas gpassword
+doas gpasswd
+doas gpasswd -a kvm ivan
+doas gpasswd -a ivan kvm
+exit
+modprobe kvm-intel
+exit
+emerge info gnome-boxes
+emerge --info gnome-boxes
+v /var/log/portage/elog/summary.log 
+exit
+sx

@@ -1,0 +1,41 @@
+#!/bin/bash
+
+### SYS ###
+# LS Commands
+alias ls="exa --icons --group-directories-first"
+alias la="exa -a --icons --group-directories-first"
+alias ll="exa -al --icons --group-directories-first"
+alias cat="bat"
+
+# Better file usage
+alias cp="cp -riv"
+alias mv="mv -iv"
+alias rm="rm -i"
+alias rm="rm -rf -i"
+
+# Resource monitoring
+alias df="df -h"
+alias free="free -m"
+alias topmem="ps auxf | sort -nr -k 4 | head -5"
+alias topcpu="ps auxf | sort -nr -k 3 | head -5"
+
+# Grep color output
+alias grep="grep --color=auto"
+alias egrep="egrep --color=auto"
+alias fgrep="fgrep --color=auto"
+
+# Diff
+alias diff="diff --color=always"
+
+### PROGRAMS ###
+if command -v /usr/bin/git >/dev/null 2>&1; then
+  alias g="git"
+  alias gc="git clone"
+  alias gp="git pull"
+  alias gC="git commit"
+  alias ga="git add"
+  alias gb="git branch"
+fi
+
+alias v="$EDITOR"
+alias doas="doas "
