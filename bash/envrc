@@ -21,7 +21,7 @@ if [[ -d "$XDG_CONFIG_HOME/rofi/scripts" ]]; then
 fi
 
 ### PROGRAMS ###
-export EDITOR=hx
+export EDITOR=nvim
 export VISUAL=$EDITOR
 export TERMINAL=foot
 
