@@ -1,0 +1,2 @@
+/usr/bin/gentoo-pipewire-launcher &
+exec dbus-launch --exit-with-session --sh-syntax /usr/bin/bspwm
