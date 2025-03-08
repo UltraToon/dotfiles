@@ -1,0 +1,59 @@
+#!/bin/bash
+set -o pipefail
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        -t) TERMINAL="$2"; shift 2 ;;
+        drun|audio|power) MODE="$1"; shift ;;
+        *) MENU_ARGS+=("$1"); shift ;;
+    esac
+done
+case "$MODE" in
+    "drun")
+        data=$(find ${XDG_DATA_DIRS//:/ } \( -type f -o -type l \) -path "*/applications/*.desktop" -print0 2>/dev/null | xargs -0 awk '
+            /^Name=/ { name = substr($0, 6) }
+            /^Exec=/ { exec = substr($0, 6); gsub(/ *%[a-zA-Z]/,"",exec)}
+            /^Terminal=/ { term = tolower(substr($0, 10)) }
+            name && exec && term != "" { print name "|" exec "|" term; name = exec = term = ""}')
+        echo "$data" | cut -d'|' -f1 | wmenu -i "${MENU_ARGS[@]}" | { # you can also do $@
+            read selected && IFS='|' read -r _ exec term <<< "$(echo "$data" | grep "^$selected|" | head -1)"
+            [ "$term" == "true" ] && exec="$TERMINAL -e $exec"
+            nohup bash -c "$exec" >/dev/null 2>&1 & disown
+        }
+        ;;
+    "audio")
+        default_sink=$(pactl list sinks | grep -A1 "Name: $(pactl get-default-sink)" | grep "Description:" | sed 's/.*Description: //')
+        default_source=$(pactl list sources | grep -A1 "Name: $(pactl get-default-source)" | grep "Description:" | sed 's/.*Description: //')
+        sink_stat=$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | grep -q "MUTED" && echo "[󰝟]" || echo "[󰕾]")
+        source_stat=$(wpctl get-volume @DEFAULT_AUDIO_SOURCE@ | grep -q "MUTED" && echo "[󰍭]" || echo "[󰍬]")
+        selection=$(printf "Output [$default_sink]\nInput [$default_source]\n|\nToggle Output\nToggle Input\nTest Sound" | wmenu -i -p "$sink_stat $source_stat Audio " "${MENU_ARGS[@]}")
+        select_device() {
+            local device_type="$1"
+            local set_command="$2"
+            selected=$(pactl list $device_type | awk -F': ' '
+                /Name:/{name=$2} 
+                /Description:/{desc=$2; print desc}
+            ' | grep -v "Monitor" | wmenu -i "${MENU_ARGS[@]}")
+            [[ -n "$selected" ]] && pactl $set_command "$(pactl list $device_type | awk -F': ' -v sel="$selected" '
+                /Name:/{name=$2} 
+                /Description:/{if($2==sel) print name}
+            ')"
+        }
+        case "$selection" in
+            "Toggle Output") wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle ;;
+            "Toggle Input") wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle ;;
+            "Test Sound") pw-play $HOME/dwl/notif.wav ;;
+            "Output"*) select_device "sinks" "set-default-sink" ;;
+            "Input"*) select_device "sources" "set-default-source" ;;
+        esac 
+    ;;
+    "power")
+        selected=$(printf "󱐥 Power Off\n󰜉 Reboot\n󰤄 Suspend\n󰍃 Logout" | wmenu -ip "[ $(uname -r | cut -d'.' -f1,2)  $(uptime -p | sed -E 's/up//; s/hours?/hrs/; s/minutes?/min/')]  Power " "${MENU_ARGS[@]}")
+        case "$selected" in
+            "󱐥 Power Off") loginctl poweroff ;;
+            "󰜉 Reboot") loginctl reboot ;;
+            "󰤄 Suspend") loginctl suspend ;;
+            "󰍃 Logout") loginctl terminate-session $XDG_SESSION_ID ;;
+        esac
+        ;;
+    *) echo "Usage: $0 drun|audio|power [-t terminal] [wmenu args]" ;;
+esac
